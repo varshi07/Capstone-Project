@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+}
+div.relative{
+    position: relative;
+    width: 100vw;
+    height: 700px;
+}
+.image{
+    width: 100vw;
+    height: 700px;
+}
+div.absolute{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    text-align: center;
+}
+.paragraph{
+    font-size: 48px;
+    font-family: 'Caveat', cursive;
+}
+.d-block{
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.lead{
+    text-align: left;
+}
+.line-end{
+    color: #A0D8B3;
+}
+#border{
+    border: 0px;
+    margin-top: 50px;
+}
+#border > div > h1{
+    color:#47A992
+}
+.card-text{
+    font-family: 'Cookie', cursive;
+    font-size: 24px;
+    margin-top: 40px;
+}
+#border > div > a{
+    background-color: #19A7CE;
+    color: #F6F1F1;
+    margin-top: 20px;
+}
+.footer{
+    background-color: #47A992;
+    margin-top: 50px;
+}
+#footer-button{
+    border: 0px;
+    background-color: #47A992;
+}
+#footer-paragraph{
+    color: white;
+}
+.tile-image{
+    height: 200px;
+    width: 200px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FFC93C;
+    border-radius: 2%;
+    padding: 10px 0px 10px 0px;
+}
+.design-image{
+    float: left;
+    height: 250px;
+    width: 250px;
+}
+.design-div{
+    margin-top: 40px;
+    width: 700px;
+}
+.design-paragraph{
+    margin-top: 50px;
+}
+div > h1{
+    color: #0081C9;
+}
+body > div.main > div > div > h5{
+    color: #0081C9;
+}
+.football-div{
+    margin-top: 70px;
+    width: 700px;
+}
+.football-image{
+    float: left;
+    margin-left: 50px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.football-paragraph{
+    margin-left: 250px;
+}
+@media (max-width:680px){
+    .main{
+        width: 100%;
+    }
+    .design-div{
+        width: 100%;
+        display: block;
+        text-align: justify;
+    }
+    body > div.main > div.design-div > img{
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+    .football-div{
+        width: 100%;
+        display: block;
+        text-align: justify;
+    }
+    body > div.main > div.football-div > img{
+        border-radius: 80%;
+        margin-left: 0px;
+        width: 100%;
+        height: 400px;
+        display: inline;
+        object-fit: cover;
+    }
+    .alignment{
+        margin-top: 50px;
+    }
+    .main > div > .football-alignment{
+        margin-left: 0px;
+    }
+    .main > div > .design-alignment{
+        margin-top: 0px;
+    }
+}
+div > div > .design-alignment{
+    margin-top: 40px;
+    color: #0081C9;
+}
+
+div > div > .football-alignment{
+    margin-left: 250px;
+    color: #0081C9;
+}
+
+.main > div > p{
+    color: black;
+    text-align: justify;
+}
